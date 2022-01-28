@@ -2,11 +2,7 @@
 
  Réseau Social Groupomania : projet frontend et backend.
  
-
-![icon-group](https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg)
-
-
- ## Objectif : ## 
+  ## Objectif : ## 
 
 - Construire un réseau social interne pour les employés de Groupomania.
 - Choisir la fonctionnalité à développer et fournir un MVP pour faciliter les interactions entre collègues dans un cadre plus informel.
@@ -18,6 +14,49 @@ Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue pour le fro
  
 - HTML5, CSS3, JavaScript, Node.js, Vue.js, Express, SQL & MySQL, CRUD Operations, OWASP & RGPD Standards.
 - Dependances : Bcrypt, Dotenv, Express, Helmet, Jsonwebtoken, Multer, Password-validator.
+ 
+
+![icon-group](https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg)
+
+
+ ## Mission : ## 
+
+Le Contexte :
+
+En tant que nouveau developeur de la société, je dois mettre en place un reseau social interne afin de permettre une meilleure cohésion au sein du groupe Groupomania. 
+Il m'a été donné carte blanche pour mettre en place le back-end et le front-end avec pour objectif de developer une application proche de Reddit ou 9GAG.
+
+Voici, les exigences du comité de direction :
+
+- la présentation des fonctionnalités doit être simple.
+- la création d’un compte doit être simple et possible depuis un téléphone mobile.
+- le profil doit contenir très peu d’informations pour que sa complétion soit rapide.
+- la suppression du compte doit être possible.
+- l’accès à un forum où les salariés publient des contenus multimédias doit être présent. 
+- L’accès à un forum où les salariés publient des textes doit être présent ; les utilisateurs doivent pouvoir facilement repérer les dernières participations des employés ;
+- le ou la chargé-e de communication Groupomania doit pouvoir modérer les interactions entre le ou la chargé-e de communication Groupomania doit pouvoir afficher les dernières participations des employés salariés.
+- La base de données doit se manipuler avec le language SQL.
+- Les données de connexion doivent être sécurisées.
+- Le projet doit être inclusif en respectant les standards du WACG.
+
+Fonctions de la partie User & Modération .
+
+L'utilisateur “lambda” doit pouvoir :
+- créer un compte avec : nom - prénom - email - mot de passe ⇒ Le réseau étant interne seul une adresse groupomania.com sera accepté.
+- Se logger à partir de son email & mot de passe.
+- Ajouter un avatar (et une description à son profil).
+- L’utilisateur doit pouvoir poster un texte et/ou une image ou un lien.
+- L’utilisateur doit pouvoir modifier ou supprimer son post.
+- L’utilisateur doit pouvoir voir les posts des autres utilisateurs et retrouver simplement un post : 1. Option A : Faire apparaitre les posts du plus récent au plus anciens 2. Option B : thématique de post 3.Option C : Intégration d’un bloc “ mes posts commentés”.
+- L’utilisateur doit pouvoir liker un post.
+- L’utilisateur doit pouvoir commenter un post.
+
+Le modérateur doit pouvoir :
+- créer un post.
+- supprimer un post.
+- supprimer un commentaire.
+- Commenter un post.
+
 
 
  ## Installation des prérequis et lancement de l'application : ##
