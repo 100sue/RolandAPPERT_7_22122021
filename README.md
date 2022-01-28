@@ -2,7 +2,8 @@
 
  Réseau Social Groupomania : projet frontend et backend.
  
- ![icon-above-font](https://user-images.githubusercontent.com/90606431/151551702-2b52d4ca-f247-4eb4-8f9c-60e1b13ef2ad.jpg)
+
+![icon-group](https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg)
 
 
  ## Objectif : ## 
@@ -43,7 +44,6 @@ Veuillez cloner ce dépôt : il vous fournira les deux dossiers nécessaires : b
     
     ### L'application :  ###
    
-
 Lancez l'application : ouvrez l'application en cliquant sur http://localhost:8080/
 
 Pour l'Utilisation de l'application : 
@@ -51,10 +51,12 @@ Pour l'Utilisation de l'application :
 - Créez votre compte
 - Accédez au fil d'actualité en vous identifiant.
 
-![icon-left-font-monochrome-white](https://user-images.githubusercontent.com/90606431/151551815-af8bf72f-5f20-4491-bb9f-095d3fccdd52.jpg)
+ ![icon-above-font](https://user-images.githubusercontent.com/90606431/151551702-2b52d4ca-f247-4eb4-8f9c-60e1b13ef2ad.jpg)
+ 
 
+                                          ### Project 7 : Groupomania ###
 
-This is an exercice as part of my developer training for OpenClassrooms :
+  ## This is an exercice as part of my developer training for OpenClassrooms : ##
 
 Tools used for this project : HTML5, CSS3,JavaScript, Node.js, Vue.js, Express, SQL & MySQL, Git & Github, CRUD Operations, OWASP & RGPD Standards.
 
