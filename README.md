@@ -15,7 +15,7 @@ Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue pour le fro
  
 - HTML5, CSS3, JavaScript, Node.js, Vue.js, Express, SQL & MySQL, CRUD Operations, OWASP & RGPD Standards.
 - Dependances : Bcrypt, Dotenv, Express, Helmet, Jsonwebtoken, Multer, Password-validator.
-- 
+
  <br>
  <br>
 
