@@ -26,7 +26,9 @@ Le Contexte :
 En tant que nouveau developeur de la société, je dois mettre en place un reseau social interne afin de permettre une meilleure cohésion au sein du groupe Groupomania. 
 Il m'a été donné carte blanche pour mettre en place le back-end et le front-end avec pour objectif de developer une application proche de Reddit ou 9GAG.
 
-Voici, les exigences du comité de direction :
+### Cahier des charges  : ###
+
+<strong> Voici, les exigences du comité de direction :<strong>
 
 - la présentation des fonctionnalités doit être simple.
 - la création d’un compte doit être simple et possible depuis un téléphone mobile.
@@ -39,7 +41,7 @@ Voici, les exigences du comité de direction :
 - Les données de connexion doivent être sécurisées.
 - Le projet doit être inclusif en respectant les standards du WACG.
 
-Fonctions de la partie User & Modération .
+<strong> Fonctions de la partie User & Modération.<strong>
 
 L'utilisateur “lambda” doit pouvoir :
 - créer un compte avec : nom - prénom - email - mot de passe ⇒ Le réseau étant interne seul une adresse groupomania.com sera accepté.
