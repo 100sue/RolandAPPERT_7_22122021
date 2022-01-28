@@ -28,7 +28,7 @@ Il m'a été donné carte blanche pour mettre en place le back-end et le front-e
 
 ### Cahier des charges  : ###
 
-<strong> Voici, les exigences du comité de direction :<strong>
+Voici, les exigences du comité de direction :
 
 - la présentation des fonctionnalités doit être simple.
 - la création d’un compte doit être simple et possible depuis un téléphone mobile.
@@ -41,7 +41,7 @@ Il m'a été donné carte blanche pour mettre en place le back-end et le front-e
 - Les données de connexion doivent être sécurisées.
 - Le projet doit être inclusif en respectant les standards du WACG.
 
-<strong> Fonctions de la partie User & Modération.<strong>
+Fonctions de la partie User & Modération.
 
 L'utilisateur “lambda” doit pouvoir :
 - créer un compte avec : nom - prénom - email - mot de passe ⇒ Le réseau étant interne seul une adresse groupomania.com sera accepté.
