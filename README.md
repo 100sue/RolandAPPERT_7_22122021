@@ -9,12 +9,15 @@
 - Développer les parties front-end et back-end de l'application.
 
 Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue pour le frontend.
+<br>
 
  ## Technologies utilisées : ##
  
 - HTML5, CSS3, JavaScript, Node.js, Vue.js, Express, SQL & MySQL, CRUD Operations, OWASP & RGPD Standards.
 - Dependances : Bcrypt, Dotenv, Express, Helmet, Jsonwebtoken, Multer, Password-validator.
- 
+- 
+ <br>
+ <br>
 
 ![icon-group](https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg)
 
@@ -59,11 +62,11 @@ Le modérateur doit pouvoir :
 - supprimer un commentaire.
 - Commenter un post.
 
-
+<br>
 
  ## Installation des prérequis et lancement de l'application : ##
 
-- Installation :
+   ### Installation : ###
 
 Veuillez cloner ce dépôt : il vous fournira les deux dossiers nécessaires : backend et frontend.
 
@@ -74,7 +77,7 @@ Veuillez cloner ce dépôt : il vous fournira les deux dossiers nécessaires : b
 - Veuillez d’abord créer dans MySQL une base de données, un utilisateur avec son mot de passe qui aura accès à cette base de données.
 - Puis remplissez avec les valeurs correctes pour les variables "DB_DATABASE", "DB_USER" et "DB_PASS", dans le ficher ".env__" et changez son nom en ".env".
 
-- Executer l'application :
+   ### Executer l'application : ###
 
 - Vous aurez besoin de deux fenêtres de terminal : une pour le frontend, une pour le backend. 
 - Sur le terminal backend : exécutez "npm install, puis "node server" ou "nodemon server". 
@@ -92,10 +95,13 @@ Pour l'Utilisation de l'application :
 - Créez votre compte
 - Accédez au fil d'actualité en vous identifiant.
 
+<br>
+
  ![icon-above-font](https://user-images.githubusercontent.com/90606431/151551702-2b52d4ca-f247-4eb4-8f9c-60e1b13ef2ad.jpg)
  
+<br>
 
-                                          ### Project 7 : Groupomania ###
+ ### Project 7 : Groupomania ###
 
   ## This is an exercice as part of my developer training for OpenClassrooms : ##
 
