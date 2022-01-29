@@ -45,9 +45,10 @@ Voici, les exigences du comité de direction :
 - Les données de connexion doivent être sécurisées.
 - Le projet doit être inclusif en respectant les standards du WACG.
 
-Fonctions de la partie User & Modération.
+### Fonctions de la partie User & Modération. ###
 
 L'utilisateur “lambda” doit pouvoir :
+
 - créer un compte avec : nom - prénom - email - mot de passe ⇒ Le réseau étant interne seul une adresse groupomania.com sera accepté.
 - Se logger à partir de son email & mot de passe.
 - Ajouter un avatar (et une description à son profil).
@@ -58,6 +59,7 @@ L'utilisateur “lambda” doit pouvoir :
 - L’utilisateur doit pouvoir commenter un post.
 
 Le modérateur doit pouvoir :
+
 - créer un post.
 - supprimer un post.
 - supprimer un commentaire.
