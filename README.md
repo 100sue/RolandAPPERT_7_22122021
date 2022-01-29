@@ -100,7 +100,10 @@ Pour l'Utilisation de l'application :
 
 <br>
 
- ![icon-above-font](https://user-images.githubusercontent.com/90606431/151551702-2b52d4ca-f247-4eb4-8f9c-60e1b13ef2ad.jpg)
+ 
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151551702-2b52d4ca-f247-4eb4-8f9c-60e1b13ef2ad.jpg"/>
+ </p>
  
 <br>
 
