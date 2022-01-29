@@ -18,9 +18,10 @@ Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue pour le fro
 
  <br>
  <br>
-
-![icon-group](https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg)
-
+ 
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151553215-dbe79e1b-6538-49c0-bc56-583cb6b354d5.jpg" />
+</p>
 
  ## Mission : ## 
 
@@ -109,3 +110,8 @@ Tools used for this project : HTML5, CSS3,JavaScript, Node.js, Vue.js, Express, 
 
 I also used a lot of depencies like : Bcrypt, Dotenv, Helmet, Jsonwebtoken, Multer, Password-validator.
 
+<br>
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151660985-c0a30670-7d3b-4b86-89fe-566e96a15e79.jpg" />
+</p>
