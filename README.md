@@ -1,4 +1,8 @@
- ## Projet 7 du parcours de Developpeur Web chez OpenClassrooms.  ##
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151769677-b99dbf89-68f6-46b6-9f01-ace009ae7202.jpg" />
+</p>
+
+## Projet 7 du parcours de Developpeur Web chez OpenClassrooms.  ##
 
  Réseau Social Groupomania : projet frontend et backend.
  
