@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="footer__contact">
+        <div class="footer_contact">
           <p>Mentions légales</p>
           <a href="mailto:?to=email@example.com">Contact</a>
         </div>
@@ -19,7 +19,7 @@ export default {
     align-items: center;
     display: flex;
 }
-a{
+a {
     text-decoration: none;
     color: black;
 }

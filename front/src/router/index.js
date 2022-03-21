@@ -21,28 +21,28 @@ const routes = [
     component: Signup
   },
 
-  // Route wall
+  // Route wall.
   {
     path: '/wall',
     name: 'Wall',
     component: Wall
   },
 
-  // Route profil
+  // Route profil.
   {
     path: '/profile',
     name: 'Profile',
     component: Profile
   },
   
-  // Route OnePost
+  // Route OnePost.
   {
     path: '/onepost/:id',
     name: 'OnePost',
     component: OnePost
   },
 
-  // Redirection page d'accueil si aucune page trouvée
+  // Redirection vers la page d'accueil si aucune page n'est trouvée.
   {
     path: "/:catchAll(.*)",
     redirect: { path: "/" }
