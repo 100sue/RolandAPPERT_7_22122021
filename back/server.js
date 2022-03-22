@@ -4,7 +4,7 @@
 
 require('dotenv').config();
 const http = require('http');
-const app = require('./src/app');
+const app = require('./app');
 
 // Renvoie un port valide, qu'il soit fourni sous la forme d'un numéro ou d'une chaîne :
 

@@ -15,9 +15,9 @@ const path = require('path');
 // Importation de la route dédiée aux posts
 // Importation de la route dédiée aux commentaires
 
-const userRoutes = require('./routes/user');
-const postRoutes = require('./routes/post');
-const commentsRoutes = require('./routes/comment');
+const userRoutes = require('./src/routes/user');
+const postRoutes = require('./src/routes/post');
+const commentsRoutes = require('./src/routes/comments');
 
 // Système de sécurité CORS :
 
@@ -35,7 +35,6 @@ app.use((req, res, next) => {
 // Permet de charger les fichiers qui sont dans 'images'
 
 app.use(bodyParser.json());
-app.use(helmet());
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // Routes API => user
@@ -45,5 +44,7 @@ app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/auth', userRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentsRoutes);
+
+app.use(helmet());
 
 module.exports = app;
