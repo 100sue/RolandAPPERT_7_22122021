@@ -14,7 +14,7 @@ const path = require('path');
 // Importation de la route dédiée aux utilisateurs.
 // Importation de la route dédiée aux posts
 // Importation de la route dédiée aux commentaires
-
+app.use(helmet());
 const userRoutes = require('./src/routes/user');
 const postRoutes = require('./src/routes/post');
 const commentsRoutes = require('./src/routes/comments');
@@ -34,8 +34,9 @@ app.use((req, res, next) => {
 // Activation de helmet :
 // Permet de charger les fichiers qui sont dans 'images'
 
+
 app.use(bodyParser.json());
-app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/image', express.static(path.join(__dirname, 'image')));
 
 // Routes API => user
 // Routes API => post
@@ -45,6 +46,5 @@ app.use('/api/auth', userRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentsRoutes);
 
-app.use(helmet());
 
 module.exports = app;
