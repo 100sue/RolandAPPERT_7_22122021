@@ -6,6 +6,8 @@
 
  Réseau Social Groupomania : projet frontend et backend.
  
+ Projet S.E.V.N (Sql, Express, Vue, Node)
+ 
   ## Objectif : ## 
 
 - Construire un réseau social interne pour les employés de Groupomania.
