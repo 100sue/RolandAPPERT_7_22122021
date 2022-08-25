@@ -8,6 +8,9 @@
  
  Projet S.E.V.N (Sql, Express, Vue, Node)
  
+ <p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/186603198-03e733ce-0d3b-4f0a-9270-b9c613060afb.png"/>
+ 
   ## Objectif : ## 
 
 - Construire un réseau social interne pour les employés de Groupomania.
