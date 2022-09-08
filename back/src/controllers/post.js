@@ -1,7 +1,7 @@
 const db = require('../database/database');
 const fs = require('fs');
 const Post = require('../models/Post');
-const { userInfo } = require('os');
+
 
 // Création d'un post :
 

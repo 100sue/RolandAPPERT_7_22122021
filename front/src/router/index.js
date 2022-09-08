@@ -1,57 +1,60 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
+import LoginView from "../views/LoginView.vue";
+import SignUpView from "../views/SignUpView.vue";
+import FeedView from "../views/FeedView.vue";
+import ProfilView from "../views/ProfilView.vue";
+import ErrorView from "../views/ErrorView.vue"
 
-import Home from '../views/Home.vue'
-import Signup from '../views/Signup.vue'
-import Wall from '../views/Wall.vue'
-import Profile from '../views/Profile.vue'
-import OnePost from '../views/OnePost.vue'
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: "/",
+      name: "intranet",
+      redirect: "signup"
+    },
+    {
+      path: "/signup",
+      name: "signup",
+      component: SignUpView,
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: LoginView,
+    },
+    {
+      path: "/feed",
+      name: "feed",
+      component: FeedView,
+    },
+    { 
+      path: '/:pathMatch(.*)*', 
+      name: 'NotFound', 
+      component: ErrorView,
+    },
+    {
+      path: "/profil",
+      name: "profil",
+      component: ProfilView,
+    },
+    {
+      path: "/profil/:id",
+      name: "IdProfil",
+      component: ProfilView,
+    }
+  ],
+});
 
-const routes = [
-  // Route page d'accueil
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-
-  // Route inscription
-  {
-    path: '/signup',
-    name: 'Signup',
-    component: Signup
-  },
-
-  // Route wall.
-  {
-    path: '/wall',
-    name: 'Wall',
-    component: Wall
-  },
-
-  // Route profil.
-  {
-    path: '/profile',
-    name: 'Profile',
-    component: Profile
-  },
-  
-  // Route OnePost.
-  {
-    path: '/onepost/:id',
-    name: 'OnePost',
-    component: OnePost
-  },
-
-  // Redirection vers la page d'accueil si aucune page n'est trouvée.
-  {
-    path: "/:catchAll(.*)",
-    redirect: { path: "/" }
+router.beforeEach((to, from, next) => {
+  const publicPages = ['/login', '/signup', '/'];
+  const authRequired = !publicPages.includes(to.path);
+  const loggedIn = localStorage.getItem('userId');
+  if (authRequired && !loggedIn) {
+    next('/login');
+  } else {
+    next();
   }
-]
+});
 
-const router = new createRouter({
-  history: createWebHistory(),
-  routes
-})
-
-export default router
+export default router;
