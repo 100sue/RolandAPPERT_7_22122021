@@ -5,6 +5,13 @@
 ## Projet 7 du parcours de Developpeur Web chez OpenClassrooms.  ##
 
  Réseau Social Groupomania : projet frontend et backend.
+ <br>
+
+ ## Projet S.E.V.N (Mysql, Express, Vue, Node) ##
+
+ <p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/186603198-03e733ce-0d3b-4f0a-9270-b9c613060afb.png"/>
+ </p>
  
   ## Objectif : ## 
 
@@ -12,7 +19,7 @@
 - Choisir la fonctionnalité à développer et fournir un MVP pour faciliter les interactions entre collègues dans un cadre plus informel.
 - Développer les parties front-end et back-end de l'application.
 
-Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue pour le frontend.
+Ce projet utilisera NodeJs, Express et MySQL pour le backend, et Vue, Vite pour le frontend.
 <br>
 
  ## Technologies utilisées : ##
