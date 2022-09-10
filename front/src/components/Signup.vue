@@ -78,7 +78,7 @@ export default {
               // Un champ n'est pas bon
               return;
           }
-          axios.post('http://localhost:3000/api/auth/signup', { 
+          axios.post('http://localhost:27107/api/auth/signup', { 
               firstname: this.firstNameSignup,
               lastname: this.lastNameSignup,
               job: this.jobSignup,

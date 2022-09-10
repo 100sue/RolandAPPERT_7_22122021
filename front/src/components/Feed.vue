@@ -2,7 +2,7 @@
     <div class="create-post" v-show="publication">
         <div class="create-post-window">
             <div class="create-post-top">
-                <p class="create-post-top__title">Créer une publication</p>
+                <p class="create-post-top__title">Ecrire un message</p>
                 <fontAwesome icon="close" @click="createPublication" class="create-post-top__close"/>
             </div>
             <span class="create-post-line"></span>
@@ -35,7 +35,7 @@
             <img :src="avatar" alt="photo-profil" class="main-create-post-photoprofil__img"/>
         </RouterLink>
         <button class="main-create-post-btn" @click="createPublication">
-            <p class="main-create-post-btn__title">Créer une publication...</p>
+            <p class="main-create-post-btn__title">Ecrire un message...</p>
         </button>
     </div>
 </template>
@@ -89,7 +89,7 @@ export default {
             if (this.inputFile.name != null){ 
                 formData.append('imageUrl', this.inputFile.data, this.inputFile.name);
             }
-            axios.post("http://localhost:3000/api/auth/posts", formData, { headers:{ "Authorization": "Bearer " + localStorage.getItem("token")}})
+            axios.post("http://localhost:27107/api/auth/posts", formData, { headers:{ "Authorization": "Bearer " + localStorage.getItem("token")}})
                 .then((response) => {
                     router.go();
                     })
@@ -97,7 +97,7 @@ export default {
         }
     },
     mounted() {
-        axios.get("http://localhost:3000/api/auth/user/" + localStorage.getItem("userId"), { headers:{ "Authorization": "Bearer " + localStorage.getItem("token")}})
+        axios.get("http://localhost:27107/api/auth/user/" + localStorage.getItem("userId"), { headers:{ "Authorization": "Bearer " + localStorage.getItem("token")}})
             .then((response) => {
                 this.avatar = response.data.avatar;
                 this.userRole = response.data.role;
@@ -121,7 +121,7 @@ export default {
     align-items: center;    
 }
 .create-post-window{
-    background-color: white;
+    background-color: #2C3B97;
     border-radius: 20px;
 }
 .create-post-top{
@@ -185,7 +185,7 @@ input[type='file']{
     z-index: -5;
 }
 .create-post-middle-btn:hover{
-    background-color: #4E5166;
+    background-color: #FD2D01;
     color: white;
     transition: 0.2s linear;
 }.create-post-middle-btn__title{
@@ -230,7 +230,8 @@ input[type='file']{
     max-width: 570px;
     margin: auto;
     border-radius: 30px;
-    border: 0.5px solid #4E5166;
+    background-color: #FD2D01;
+    border: 0.5px solid #2C3B97;
     padding:25px;
     box-shadow: 2px 3px 8px #d0d1d6;
 }
@@ -255,7 +256,7 @@ input[type='file']{
     width: 85%;
 }
 .main-create-post-btn:hover{
-    background-color: #4E5166;
+    background-color: #2C3B97;
     color: white;
     transition: 0.2s linear;
 }

@@ -6,7 +6,7 @@ import ProfilView from "../views/ProfilView.vue";
 import ErrorView from "../views/ErrorView.vue"
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: "/",

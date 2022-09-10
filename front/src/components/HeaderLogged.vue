@@ -5,7 +5,7 @@
         </RouterLink>
         <form method="get" action="ville.php" class="header-form">
             <fontAwesome icon="search" class="header-form__icon"/>
-            <input type="text" name="search" placeholder="Rechercher sur l'intranet" class="header-form__input"/>
+            <input type="text" name="search" placeholder="Rechercher de collègues" class="header-form__input"/>
         </form>
     </div>
     <div class="header-nav">
@@ -121,7 +121,7 @@ export default {
 }
 .header-nav__icon{
     height: 35px;
-    color: #4E5166; 
+    color: #2C3B97; 
 }
 .header-nav__icon:hover{
     color: #FD2D01;
@@ -148,7 +148,7 @@ export default {
     align-items: center;
     text-decoration: none;
     color: white;
-    background-color: #FD2D01;
+    background-color: #2C3B97;
     font-weight: bold;
     width: 110px;
     height: 39px;
