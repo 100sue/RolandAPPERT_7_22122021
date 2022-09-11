@@ -2,16 +2,38 @@
     import HeaderLogged from '../components/HeaderLogged.vue';
     import Feed from '../components/Feed.vue';
     import Publication from '../components/Publication.vue';
+
+   /* export default {
+  name: "FeedView",
+  components: {
+    HeaderLogged,
+    Feed,
+    Publication,
+  },
+  data() {
+  }}
+
+  methods: {
+    // Bouton permettant un retour rapide en haut de page
+    toTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }}*/
     </script>
     
     <template>
         <header id="header">
             <HeaderLogged/> 
         </header>
-        <span class="header-line"></span>
         <main id="main">
             <Feed/>
             <Publication/>
+                                                                                 <!-- Bouton Scroll to Top-->
+        <button class="toTop" @click="toTop" title="Retour en haut de page">
+        <span class="fa fa-chevron-up"></span>
+        </button>
         </main>
     </template>
     
@@ -30,12 +52,19 @@
         margin: auto;
         padding-top: 20px;
     }
-    .header-line{
-        display: block;
-        background-color: #d1d2d6;
-        height:1.5px;
-        width: 100%;
+    
+
+    /* Bouton Scroll to the Top */
+    .toTop {
+       width: 7vh;
+       height: 5vh;
+       position: absolute;
+       right: 0;
+       margin-right: 5%;
+       color: #FD2D01;
+       background-color: #2C3B97;
     }
+
     /* Tablette */
     @media screen and (max-width: 1100px) {
         #header{
@@ -49,8 +78,6 @@
             height: 190px;
             margin: 30px 0;
         }
-        .header-line{
-            margin-top:30px;
-        }
+        
     }
     </style>

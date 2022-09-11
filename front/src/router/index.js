@@ -4,6 +4,7 @@ import SignUpView from "../views/SignUpView.vue";
 import FeedView from "../views/FeedView.vue";
 import ProfilView from "../views/ProfilView.vue";
 import ErrorView from "../views/ErrorView.vue"
+import CommunityView from "../views/CommunityView.vue"
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,6 +18,11 @@ const router = createRouter({
       path: "/signup",
       name: "signup",
       component: SignUpView,
+    },
+    {
+      path: "/community",
+      name: "community",
+      component: CommunityView,
     },
     {
       path: "/login",

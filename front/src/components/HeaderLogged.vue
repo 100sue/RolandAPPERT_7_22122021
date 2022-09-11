@@ -3,10 +3,9 @@
         <RouterLink to="/feed">
             <img src="../assets/Groupomania-logo.svg" alt="Groupomania-logo" class="header__logo"/>
         </RouterLink>
-        <form method="get" action="ville.php" class="header-form">
-            <fontAwesome icon="search" class="header-form__icon"/>
-            <input type="text" name="search" placeholder="Rechercher de collègues" class="header-form__input"/>
-        </form>
+        <router-link to="/community" title="Membres de l'équipe" class="users-header" >
+        <i class="fas -solid fa-users"></i>
+      </router-link>
     </div>
     <div class="header-nav">
         <RouterLink to="/feed" class="header-nav-home">
@@ -95,24 +94,14 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
+    width: 130px;
 }
+
 .header__logo{
     width: 60px;
 }
-.header-form__icon{
-    position: relative;
-    color: #4E5166;
-    left: 50px;
-}
-.header-form__input{
-    margin-left: 20px;
-    padding: 10px;
-    padding-left:40px;
-    font-weight: lighter;
-    width: 180px;
-    border-radius: 30px;
-    border: 0.5px solid #4E5166;
-}
+
 .header-nav{
     position: relative;
     display: flex;
@@ -170,6 +159,17 @@ export default {
     text-align: center;
     margin: 0;
     margin-right: 10px;
+}
+
+i {
+  font-size: 2em;
+  color: #2C3B97;
+  transition: transform 0.5s;
+}
+i:hover {
+  border-radius: 100%;
+  transform: rotate(360deg);
+  color: #FD2D01;
 }
 /* TABLET */
 @media screen and (max-width: 768px) {
