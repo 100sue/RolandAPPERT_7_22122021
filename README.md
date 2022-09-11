@@ -96,14 +96,14 @@ Veuillez cloner ce dépôt : il vous fournira les deux dossiers nécessaires : b
 
 - Vous aurez besoin de deux fenêtres de terminal : une pour le frontend, une pour le backend. 
 - Sur le terminal backend : exécutez "npm install, puis "npm run dev". 
-- Le serveur doit fonctionner sur localhost avec le port par défaut 3000. 
+- Le serveur doit fonctionner sur localhost avec le port par défaut 27107. 
 - Puis, sur le terminal frontend : lancez "npm install pour installer tous les plugins nécessaires, puis "npm run dev". 
-- Le frontend de l'application est visible sur http:// localhost: 5173/.
+- Le frontend de l'application est visible sur http:// localhost: 3000/.
     
     
     ### L'application :  ###
    
-Lancez l'application : ouvrez l'application en cliquant sur http://localhost:5173/
+Lancez l'application : ouvrez l'application en cliquant sur http://localhost:3000/
 
 Pour l'Utilisation de l'application : 
 
